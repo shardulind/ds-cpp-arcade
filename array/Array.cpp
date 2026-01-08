@@ -65,9 +65,10 @@ bool ArrayDS::isAscending(){
 
 void ArrayDS::display(){
 	if(size == 0){
-		cout<<"Array is empty\n";
+		cout<<"\nArray is empty\n";
 		return;
 	}
+	cout<<endl;
 	for (int i=0; i<size; i++){
 		cout<<data[i] <<" ";
 	}
@@ -85,4 +86,14 @@ void ArrayDS::bubbleSort(){
 			}
 		}
 	}
+}
+
+void ArrayDS::insertAllElements(){
+	for(int i=0; i<capacity; i++){
+		cin>>this->data[size++];
+	}
+}
+
+int ArrayDS::getCapacity(){
+	return capacity;
 }

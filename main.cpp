@@ -6,7 +6,9 @@ using namespace std;
 int main(){
 	int choice;
 	do {
+		cout<<"\n ==========================================================";
 		cout<<"\n ----------------- Data Sturctures Menu -------------------";
+		cout<<"\n ==========================================================";
 		cout<<"\n 1. Array";
 		cout<<"\n 2. Singly Linked List";
 		cout<<"\n 3. Doubly Linked List";

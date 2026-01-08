@@ -8,11 +8,13 @@ class ArrayDS {
 
 		void insertLast(int value);
 		void insertFirst(int value);
+		void insertAllElements();
 		void display();
 		int linearSearchIndex(int skey);
 		int binarySearchIndex(int skey);
 		bool isAscending();
 		void bubbleSort();
+		int getCapacity();
 	private:
 		int* data;
 		int size;
